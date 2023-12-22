@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34003.232
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{62FA2CC1-A267-4793-BB56-8E2EB74FA728}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{0376DC58-74A2-41D5-B67B-7763F00EAAAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{D1487841-107F-42F7-805A-946DB3A7D4D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{8E85BDB2-E07F-4F2F-9317-AC0842A0294E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{88B91334-F639-4D13-93E8-FF53EB140492}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{3ABD17BF-BD20-4309-8930-40591EFD0DAF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{98279F50-E1EE-41EE-BA08-A2E432711443}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BlazorWeb", "BlazorWeb", "{E667641D-1EF3-4438-A1BD-57E97F01C6E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstateManagment.Common", "src\Common\RealEstateManagment.Common\RealEstateManagment.Common.csproj", "{AE95DBF5-2135-44D6-B263-AC46B9348D88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstateManagment.Api.Domain", "src\Api\Core\RealEstateManagment.Api.Domain\RealEstateManagment.Api.Domain.csproj", "{26E53696-30AA-4E78-AA16-C3D402A270FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstateManagment.Api.Application", "src\Api\Core\RealEstateManagment.Api.Application\RealEstateManagment.Api.Application.csproj", "{67B5ACDE-966A-4B05-B717-DA9A5058552D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstateManagment.Infrastructure.Persistence", "src\Api\Infrastructure\RealEstateManagment.Infrastructure.Persistence\RealEstateManagment.Infrastructure.Persistence.csproj", "{A02B8F32-AC63-4BFF-8C6E-E2DCC2090E2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealEstateManagment.Api.WebApi", "src\Api\WebApi\RealEstateManagment.Api.WebApi\RealEstateManagment.Api.WebApi.csproj", "{2C6444A6-898A-40CE-B788-1E9FC69A2371}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE95DBF5-2135-44D6-B263-AC46B9348D88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE95DBF5-2135-44D6-B263-AC46B9348D88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE95DBF5-2135-44D6-B263-AC46B9348D88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE95DBF5-2135-44D6-B263-AC46B9348D88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26E53696-30AA-4E78-AA16-C3D402A270FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26E53696-30AA-4E78-AA16-C3D402A270FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26E53696-30AA-4E78-AA16-C3D402A270FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26E53696-30AA-4E78-AA16-C3D402A270FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67B5ACDE-966A-4B05-B717-DA9A5058552D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67B5ACDE-966A-4B05-B717-DA9A5058552D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67B5ACDE-966A-4B05-B717-DA9A5058552D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67B5ACDE-966A-4B05-B717-DA9A5058552D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A02B8F32-AC63-4BFF-8C6E-E2DCC2090E2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A02B8F32-AC63-4BFF-8C6E-E2DCC2090E2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A02B8F32-AC63-4BFF-8C6E-E2DCC2090E2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A02B8F32-AC63-4BFF-8C6E-E2DCC2090E2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C6444A6-898A-40CE-B788-1E9FC69A2371}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C6444A6-898A-40CE-B788-1E9FC69A2371}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C6444A6-898A-40CE-B788-1E9FC69A2371}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C6444A6-898A-40CE-B788-1E9FC69A2371}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0376DC58-74A2-41D5-B67B-7763F00EAAAA} = {62FA2CC1-A267-4793-BB56-8E2EB74FA728}
+		{D1487841-107F-42F7-805A-946DB3A7D4D7} = {62FA2CC1-A267-4793-BB56-8E2EB74FA728}
+		{8E85BDB2-E07F-4F2F-9317-AC0842A0294E} = {62FA2CC1-A267-4793-BB56-8E2EB74FA728}
+		{88B91334-F639-4D13-93E8-FF53EB140492} = {0376DC58-74A2-41D5-B67B-7763F00EAAAA}
+		{3ABD17BF-BD20-4309-8930-40591EFD0DAF} = {0376DC58-74A2-41D5-B67B-7763F00EAAAA}
+		{98279F50-E1EE-41EE-BA08-A2E432711443} = {0376DC58-74A2-41D5-B67B-7763F00EAAAA}
+		{E667641D-1EF3-4438-A1BD-57E97F01C6E1} = {D1487841-107F-42F7-805A-946DB3A7D4D7}
+		{AE95DBF5-2135-44D6-B263-AC46B9348D88} = {8E85BDB2-E07F-4F2F-9317-AC0842A0294E}
+		{26E53696-30AA-4E78-AA16-C3D402A270FF} = {88B91334-F639-4D13-93E8-FF53EB140492}
+		{67B5ACDE-966A-4B05-B717-DA9A5058552D} = {88B91334-F639-4D13-93E8-FF53EB140492}
+		{A02B8F32-AC63-4BFF-8C6E-E2DCC2090E2B} = {3ABD17BF-BD20-4309-8930-40591EFD0DAF}
+		{2C6444A6-898A-40CE-B788-1E9FC69A2371} = {98279F50-E1EE-41EE-BA08-A2E432711443}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D7718EB-9F19-480A-8AC4-567AD3CAC806}
+	EndGlobalSection
+EndGlobal
